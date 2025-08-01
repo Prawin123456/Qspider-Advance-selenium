@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="lead.LeadTest">
+      <class name="vTiger.organisationTest.toCreateOrganizationTest">
         <methods>
-          <include name="leadTest_003"/>
           <include name="beforeMethodConfig"/>
           <include name="beforeSuiteConfig"/>
           <include name="afterSuitConfig"/>
           <include name="beforeClassConfig"/>
+          <include name="toCreateOrganizationTest_002"/>
           <include name="afterClass"/>
           <include name="afterMethodConfig"/>
         </methods>
-      </class> <!-- lead.LeadTest -->
+      </class> <!-- vTiger.organisationTest.toCreateOrganizationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

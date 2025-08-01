@@ -6,7 +6,6 @@
       <class name="vTiger.ContactTests.toCreateContactTest"/>
       <class name="vTiger.organisationTest.toCreateOrganizationTest"/>
       <class name="lead.LeadTest"/>
-      <class name="calender.CalenderTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

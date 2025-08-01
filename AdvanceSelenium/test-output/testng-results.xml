@@ -26,19 +26,19 @@
       <![CDATA[---database connection disconnected--]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-07-29T16:36:31 IST" name="Default suite" finished-at="2025-07-29T16:37:10 IST" duration-ms="38645">
+  <suite started-at="2025-08-01T13:42:24 IST" name="Default suite" finished-at="2025-08-01T13:42:36 IST" duration-ms="12439">
     <groups>
     </groups>
-    <test started-at="2025-07-29T16:36:31 IST" name="Default test" finished-at="2025-07-29T16:37:10 IST" duration-ms="38645">
-      <class name="lead.LeadTest">
-        <test-method is-config="true" signature="beforeSuiteConfig()[pri:0, instance:lead.LeadTest@587e5365]" started-at="2025-07-29T16:36:31 IST" name="beforeSuiteConfig" finished-at="2025-07-29T16:36:31 IST" duration-ms="18" status="PASS">
+    <test started-at="2025-08-01T13:42:24 IST" name="Default test" finished-at="2025-08-01T13:42:36 IST" duration-ms="12439">
+      <class name="calendar.CalenderTest">
+        <test-method is-config="true" signature="beforeSuiteConfig()[pri:0, instance:calendar.CalenderTest@bccb269]" started-at="2025-08-01T13:42:24 IST" name="beforeSuiteConfig" finished-at="2025-08-01T13:42:24 IST" duration-ms="19" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[---Data base connection Estabilishes---]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuiteConfig -->
-        <test-method is-config="true" signature="beforeClassConfig()[pri:0, instance:lead.LeadTest@587e5365]" started-at="2025-07-29T16:36:31 IST" name="beforeClassConfig" finished-at="2025-07-29T16:36:37 IST" duration-ms="5337" status="PASS">
+        <test-method is-config="true" signature="beforeClassConfig()[pri:0, instance:calendar.CalenderTest@bccb269]" started-at="2025-08-01T13:42:24 IST" name="beforeClassConfig" finished-at="2025-08-01T13:42:28 IST" duration-ms="3881" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser got launch]]>
@@ -48,25 +48,25 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClassConfig -->
-        <test-method is-config="true" signature="beforeMethodConfig()[pri:0, instance:lead.LeadTest@587e5365]" started-at="2025-07-29T16:36:37 IST" name="beforeMethodConfig" finished-at="2025-07-29T16:36:37 IST" duration-ms="359" status="PASS">
+        <test-method is-config="true" signature="beforeMethodConfig()[pri:0, instance:calendar.CalenderTest@bccb269]" started-at="2025-08-01T13:42:28 IST" name="beforeMethodConfig" finished-at="2025-08-01T13:42:30 IST" duration-ms="2486" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[login sucessfullt]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethodConfig -->
-        <test-method signature="leadTest_003()[pri:0, instance:lead.LeadTest@587e5365]" started-at="2025-07-29T16:36:37 IST" name="leadTest_003" finished-at="2025-07-29T16:37:05 IST" duration-ms="28114" status="PASS">
+        <test-method signature="ToCreateCalender()[pri:0, instance:calendar.CalenderTest@bccb269]" started-at="2025-08-01T13:42:30 IST" name="ToCreateCalender" finished-at="2025-08-01T13:42:34 IST" duration-ms="4302" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- leadTest_003 -->
-        <test-method is-config="true" signature="afterMethodConfig()[pri:0, instance:lead.LeadTest@587e5365]" started-at="2025-07-29T16:37:05 IST" name="afterMethodConfig" finished-at="2025-07-29T16:37:09 IST" duration-ms="4093" status="PASS">
+        </test-method> <!-- ToCreateCalender -->
+        <test-method is-config="true" signature="afterMethodConfig()[pri:0, instance:calendar.CalenderTest@bccb269]" started-at="2025-08-01T13:42:34 IST" name="afterMethodConfig" finished-at="2025-08-01T13:42:36 IST" duration-ms="1345" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logout sucsessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethodConfig -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:lead.LeadTest@587e5365]" started-at="2025-07-29T16:37:09 IST" name="afterClass" finished-at="2025-07-29T16:37:10 IST" duration-ms="672" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:calendar.CalenderTest@bccb269]" started-at="2025-08-01T13:42:36 IST" name="afterClass" finished-at="2025-08-01T13:42:36 IST" duration-ms="335" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser closed secssesfully]]>
@@ -76,14 +76,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuitConfig()[pri:0, instance:lead.LeadTest@587e5365]" started-at="2025-07-29T16:37:10 IST" name="afterSuitConfig" finished-at="2025-07-29T16:37:10 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterSuitConfig()[pri:0, instance:calendar.CalenderTest@bccb269]" started-at="2025-08-01T13:42:36 IST" name="afterSuitConfig" finished-at="2025-08-01T13:42:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[---database connection disconnected--]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterSuitConfig -->
-      </class> <!-- lead.LeadTest -->
+      </class> <!-- calendar.CalenderTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

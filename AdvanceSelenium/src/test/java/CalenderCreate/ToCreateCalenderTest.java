@@ -1,4 +1,8 @@
-package calendar;
+package CalenderCreate;
+
+
+
+import org.junit.Test;
 
 import vTiger.GenericUtility.BaseClass;
 import vTiger.ObjectRepository.CalendarInformation;
@@ -6,10 +10,10 @@ import vTiger.ObjectRepository.Createcalendar;
 import vTiger.ObjectRepository.HomePage;
 import vTiger.ObjectRepository.LoginPage;
 
-public class CalendarTest extends BaseClass {
+public class ToCreateCalenderTest extends BaseClass{
 	
-	public void calendartest_004() {
-		
+	@org.testng.annotations.Test
+	public void TocreateCalenderTest_001() {
 		HomePage hp=new HomePage(driver);
 		LoginPage lp=new LoginPage(driver);
 		Createcalendar cc=new Createcalendar(driver);
@@ -20,7 +24,8 @@ public class CalendarTest extends BaseClass {
 		ci.getClickADDbutton().click();
 		ci.getClickDAYevent().click();
 		ci.getClickMeeting().click();
-		
+
+	
 	}
 
 }

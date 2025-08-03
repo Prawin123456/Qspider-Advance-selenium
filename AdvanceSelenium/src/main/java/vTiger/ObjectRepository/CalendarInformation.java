@@ -33,6 +33,16 @@ public class CalendarInformation {
 		return clickMeeting;
 	}
 	
+	@FindBy(xpath = "//input[@name='subject']")
+	private WebElement eventName;
+
+	public WebElement getEventName() {
+		return eventName;
+	}
+	
+	
+	 
+	
 	
 
 }

@@ -27,6 +27,7 @@ public class BaseClass {
 	PropertyFileutility putil = new PropertyFileutility();
 	ExcelFileUtiliy eutil = new ExcelFileUtiliy();
 	WebDriverUtility wutil = new WebDriverUtility();
+	
 	public WebDriver driver = null;
 
 	@BeforeSuite(groups = {"smoke","Regerassion"})
